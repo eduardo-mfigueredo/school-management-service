@@ -6,7 +6,11 @@
 
 #### Pré-requisitos
 
-MongoDB instalado e rodando na porta padrão (27017)
+MongoDB 
+
+```
+docker run -d -p 27017:27017 --name meu-mongodb mongo
+```
 
 Java 11
 
