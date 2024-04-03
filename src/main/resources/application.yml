@@ -1,0 +1,14 @@
+---
+debug: false
+info:
+  app:
+    description: "Service to manage basic school processes"
+    name: school-management-service
+    version: 1.0.1
+logging.level.org.springframework:
+  security: INFO
+server:
+  port: 8081
+
+jwt:
+  secret: T1IbrXFdfsEhvauB6lyiTgc0BpY0uvzJS0rvyDPvll0=
